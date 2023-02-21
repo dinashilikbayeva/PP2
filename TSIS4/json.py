@@ -4,7 +4,7 @@ print("=========================================================================
 print("DN                                                 Description           Speed   MTU  ")
 print("-------------------------------------------------- --------------------  ------  ------")
 
-x=open("D:\Git\PP2\TSIS4\sample-data.json")
+x=open("/Users/dino/Documents/GitHub/PP2/TSIS4/json.py")
 
 y=json.load(x)
 
