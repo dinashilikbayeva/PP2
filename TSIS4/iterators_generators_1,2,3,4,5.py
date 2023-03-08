@@ -2,9 +2,8 @@
 #1
 n = int(input())
 list=[i**2 for i in range(1, n+1)]
-
 print(list)
-
+"""
 #2
 def generator(n):   
     for i in range (0, n+1):
@@ -41,3 +40,4 @@ def generator(n):
 
 for i in generator(int(input())):
     print(i, end = " ")
+    """

@@ -6,7 +6,7 @@ a = datetime.date.today()
 b = a - datetime.timedelta(5)
 print(b)
 
-
+"""
 #2
 import datetime
 
@@ -32,3 +32,4 @@ a = datetime.datetime.today()
 b = datetime.datetime(1966, 5, 28)
 
 print((a-b).total_seconds())
+"""
