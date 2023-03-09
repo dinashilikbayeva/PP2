@@ -1,4 +1,4 @@
-"""#1
+#1
 import os
 
 path = '/Users/dino/Documents/GitHub/PP2'
@@ -88,7 +88,7 @@ with open(source_path, 'r') as source_file, open(destination_path, 'w') as desti
         destination_file.write(line)
 
 print(f"The contents of '{source_path}' have been copied to '{destination_path}'.")
-"""
+
 
 #8
 import os
