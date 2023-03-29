@@ -1,4 +1,4 @@
-"""#1
+#1
 import os
 
 path = '/Users/dino/Documents/GitHub/PP2'
