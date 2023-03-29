@@ -47,14 +47,14 @@ if os.path.exists(path):
     print(os.path.dirname(path))
 else:
     print("Path dont exist")
-
+"""
 #4
 
 file = open("/Users/dino/Documents/GitHub/PP2/TSIS6/1.txt", 'r')
 lines = len(file.readlines())
 print(lines)
 
-#5
+"""#5
 
 file_path = '/Users/dino/Documents/GitHub/PP2/TSIS6/1.txt'
 
@@ -88,7 +88,7 @@ with open(source_path, 'r') as source_file, open(destination_path, 'w') as desti
         destination_file.write(line)
 
 print(f"The contents of '{source_path}' have been copied to '{destination_path}'.")
-"""
+
 
 #8
 import os
@@ -103,3 +103,4 @@ if os.path.exists(file_path):
         print(f"You do not have write access to '{file_path}'.")
 else:
     print(f"The file '{file_path}' does not exist.")
+"""

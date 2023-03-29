@@ -1,4 +1,4 @@
-#1
+"""#1
 
 def mult(list):
     result = 1
@@ -10,7 +10,7 @@ def mult(list):
 list = [int(input()) for i in range(int(input()))]
 
 print(mult(list))
-
+"""
 #2
 
 str = str(input())
@@ -25,7 +25,7 @@ for i in str:
         count2 += 1
 
 print(count1, " ", count2)
-
+"""
 #3
 str = str(input())
 str2=reversed(str)
@@ -55,4 +55,4 @@ def true(tuple):
 
 tuple = (True, True)
 
-print(true(tuple))
+print(true(tuple))"""

@@ -1,4 +1,4 @@
-#1
+"""#1
 import re
 s = str(input())
 r = re.findall("ab*", s)
@@ -33,13 +33,13 @@ import re
 s = str(input())
 r = re.sub("[ ,.]", ":",s)
 print(r)
-
+"""
 #7
 import re
 s = str(input())
 temp = s.split('_')
 print(temp[0] + ''.join(ele.capitalize() for ele in temp[1:]))
-
+"""
 #8
 import re
 s = str(input())
@@ -59,3 +59,4 @@ import re
 s = str(input())
 snake_case = re.sub('([a-z0-9])([A-Z])', r'\1_\2', s).lower()
 print(snake_case)
+"""
