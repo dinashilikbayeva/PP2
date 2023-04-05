@@ -82,7 +82,7 @@ while not done:
    
 
     screen.blit(bg, (0, 0))
-    screen.blit(text, (300,100))
+    screen.blit(text, (200,100))
     screen.blit(prev, (150,160))
     screen.blit(playbt, (295,167))
     screen.blit(stop, (425,159))
